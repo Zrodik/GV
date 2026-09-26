@@ -1,6 +1,30 @@
 {
   "version": "1.0.0",
   "plugins": {
+    "better-search-views": {
+      "source": "https://github.com/ivan-lednev/better-search-views.git",
+      "resolved": "https://github.com/ivan-lednev/better-search-views.git",
+      "commit": "a2561bf9bfedc2164f2f85160eeb033a134e111f",
+      "installedAt": "2026-09-26T16:34:13.940Z"
+    },
+    "hierarchical-backlinks": {
+      "source": "https://github.com/jasonmotylinski/hierarchical-backlinks.git",
+      "resolved": "https://github.com/jasonmotylinski/hierarchical-backlinks.git",
+      "commit": "58a04c63bcb3c9a4ac8efbc69eaad4bf9121283d",
+      "installedAt": "2026-09-26T16:35:05.616Z"
+    },
+    "obsidian-kanban": {
+      "source": "https://github.com/community-archive/obsidian-kanban.git",
+      "resolved": "https://github.com/community-archive/obsidian-kanban.git",
+      "commit": "5134c05ad9a7861f551cd15d57cf50db8394901a",
+      "installedAt": "2026-09-26T16:35:39.457Z"
+    },
+    "obsidian-style-settings": {
+      "source": "https://github.com/community-archive/obsidian-style-settings.git",
+      "resolved": "https://github.com/community-archive/obsidian-style-settings.git",
+      "commit": "8ecefa956cf663ed11cb015769b3959df6419c40",
+      "installedAt": "2026-09-26T16:36:39.219Z"
+    },
     "quartz-leaflet-bases-plugin": {
       "source": "github:Requiae/quartz-leaflet-bases-plugin",
       "resolved": "https://github.com/Requiae/quartz-leaflet-bases-plugin.git",

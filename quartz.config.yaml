@@ -278,6 +278,22 @@ plugins:
       darkMode: auto
       exportPadding: 20
     order: 50
+  - source: https://github.com/ivan-lednev/better-search-views.git
+    enabled: true
+    options: {}
+    order: 50
+  - source: https://github.com/jasonmotylinski/hierarchical-backlinks.git
+    enabled: true
+    options: {}
+    order: 50
+  - source: https://github.com/community-archive/obsidian-kanban.git
+    enabled: true
+    options: {}
+    order: 50
+  - source: https://github.com/community-archive/obsidian-style-settings.git
+    enabled: true
+    options: {}
+    order: 50
 layout:
   groups:
     toolbar:
