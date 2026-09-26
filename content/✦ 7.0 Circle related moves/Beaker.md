@@ -1,0 +1,1 @@
+From split lines, lines ride straight from a corner letter to the point where the wide tier line and 5m dotted line meet. Then, ride straight across the 5m dotted line until the wall

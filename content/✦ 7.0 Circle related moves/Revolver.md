@@ -1,0 +1,1 @@
+With two split lines coming towards X (facing each other), they’ll make the specified half circle towards each other around X (ex: 5m Revolver at X, both lines would make half a 5m circle around X towards each other and then continue straight)
