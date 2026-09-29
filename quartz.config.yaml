@@ -294,6 +294,15 @@ plugins:
     enabled: true
     options: {}
     order: 50
+  - source: https://tangled.org/voigt.tngl.sh/quartz-custom-navbar
+    enabled: true
+    options:
+      items: {}
+      displayPopup: false
+    order: 50
+    layout:
+      position: left
+      priority: 50
 layout:
   groups:
     toolbar:

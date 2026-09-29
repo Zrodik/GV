@@ -1,5 +1,5 @@
 ---
-title: "SPA Routing"
+title: SPA Routing
 tags:
   - feature
 ---

@@ -1,8 +1,8 @@
 ---
-title: "What's New in Quartz 5"
+title: What's New in Quartz 5
 aliases:
-  - "changelog"
-  - "v5"
+  - changelog
+  - v5
 ---
 
 Quartz 5 is a ground-up rearchitecture of Quartz focused on extensibility, performance, and Obsidian compatibility. If you're coming from v4, see [[migrating|Migrating to Quartz 5]] for the upgrade path.

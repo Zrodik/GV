@@ -10,7 +10,7 @@ Fundamentals and Beginners 1 are core values of any other move in existence.
 - Add where the move comes from and its original name on the website
 - 
 Start on wall, comb, teir, single line, any  ˖  End in waterfall, single line, halt,  etc
-#### Curriculum
+### Curriculum
 
 | **Rank** | **Dictionary**                                              | **Method**                                                          |
 | :------- | :---------------------------------------------------------- | :------------------------------------------------------------------ |

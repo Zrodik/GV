@@ -1,3 +1,8 @@
 @use "./variables.scss" as *;
 
-// put your custom CSS here!
+// Hide the article title when the body has the class "hide-title" (specifically for index page)
+body:has(.hide-title) {
+  .article-title {
+    display: none;
+  }
+}

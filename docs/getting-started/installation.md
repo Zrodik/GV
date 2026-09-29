@@ -1,7 +1,7 @@
 ---
-title: "Installation"
+title: Installation
 aliases:
-  - "setting up your GitHub repository"
+  - setting up your GitHub repository
 ---
 
 This page walks you through the full Quartz setup: from getting the source code to previewing your site locally, then pushing it to GitHub.
