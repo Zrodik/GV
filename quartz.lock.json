@@ -13,6 +13,12 @@
       "commit": "58a04c63bcb3c9a4ac8efbc69eaad4bf9121283d",
       "installedAt": "2026-09-26T16:35:05.616Z"
     },
+    "obsidian-callout-manager": {
+      "source": "https://github.com/eth-p/obsidian-callout-manager.git",
+      "resolved": "https://github.com/eth-p/obsidian-callout-manager.git",
+      "commit": "bfdf6969baf0d273cd9cae2816aa77267512209e",
+      "installedAt": "2026-09-29T22:19:50.952Z"
+    },
     "obsidian-kanban": {
       "source": "https://github.com/community-archive/obsidian-kanban.git",
       "resolved": "https://github.com/community-archive/obsidian-kanban.git",
@@ -24,6 +30,18 @@
       "resolved": "https://github.com/community-archive/obsidian-style-settings.git",
       "commit": "8ecefa956cf663ed11cb015769b3959df6419c40",
       "installedAt": "2026-09-26T16:36:39.219Z"
+    },
+    "obsidian42-brat": {
+      "source": "https://github.com/TfTHacker/obsidian42-brat.git",
+      "resolved": "https://github.com/TfTHacker/obsidian42-brat.git",
+      "commit": "e9484d8f74b3b75ef59e33c9c9db139abaf039af",
+      "installedAt": "2026-09-29T22:19:08.228Z"
+    },
+    "pretty-properties": {
+      "source": "https://github.com/anareaty/pretty-properties.git",
+      "resolved": "https://github.com/anareaty/pretty-properties.git",
+      "commit": "1c528fded6de7ca2ae685e510915a3a43e7d3b8e",
+      "installedAt": "2026-09-29T22:21:00.385Z"
     },
     "quartz-custom-navbar": {
       "source": "https://tangled.org/voigt.tngl.sh/quartz-custom-navbar",

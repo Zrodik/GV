@@ -303,6 +303,18 @@ plugins:
     layout:
       position: left
       priority: 50
+  - source: https://github.com/TfTHacker/obsidian42-brat.git
+    enabled: false
+    options: {}
+    order: 50
+  - source: https://github.com/eth-p/obsidian-callout-manager.git
+    enabled: true
+    options: {}
+    order: 50
+  - source: https://github.com/anareaty/pretty-properties.git
+    enabled: false
+    options: {}
+    order: 50
 layout:
   groups:
     toolbar:
