@@ -172,7 +172,7 @@ plugins:
   - source: "@quartz-community/search"
     enabled: true
     layout:
-      position: left
+      position: header      # Changed from left
       priority: 20
       group: toolbar
       groupOptions:
@@ -200,18 +200,18 @@ plugins:
   - source: "@quartz-community/page-title"
     enabled: true
     layout:
-      position: left
+      position: header      # Changed from left
       priority: 10
   - source: "@quartz-community/darkmode"
     enabled: true
     layout:
-      position: left
+      position: header      # Changed from left
       priority: 30
       group: toolbar
   - source: "@quartz-community/reader-mode"
     enabled: true
     layout:
-      position: left
+      position: header      # Changed from left
       priority: 35
       group: toolbar
   - source: "@quartz-community/breadcrumbs"
@@ -312,7 +312,7 @@ layout:
     toolbar:
       priority: 35
       direction: row
-      gap: 0.5rem
+      gap: 1rem
   byPageType:
     "404":
       positions:

@@ -319,3 +319,87 @@ table {
     margin-right: 0 !important;
   }
 }
+
+/* ==========================================
+   THE BULLETPROOF NAVBAR
+   ========================================== */
+/* 1. Universal breakout: centers the header and stretches it 100vw */
+header {
+  position: absolute !important; 
+  top: 0 !important;
+  left: 50% !important; 
+  transform: translateX(-50%) !important; 
+  width: 100vw !important; 
+  height: 75px !important;
+  margin: 0 !important; 
+  background-color: #12110f !important; 
+  
+  /* Forces the Title left and Icons right */
+  display: flex !important;
+  flex-direction: row !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+  flex-wrap: nowrap !important; 
+  
+  padding: 0 5vw !important; 
+  border-bottom: 1px solid rgba(184, 150, 74, 0.30) !important;
+  z-index: 99999 !important; 
+  box-sizing: border-box !important;
+}
+
+/* Light mode background swap */
+[saved-theme="light"] header {
+  background-color: #e8dfcd !important; 
+}
+
+/* 2. Target the Title */
+header .page-title {
+  margin: 0 !important;
+}
+
+/* 3. Target the exact grouped icons from your HTML output */
+header .flex-component {
+  display: flex !important;
+  flex-direction: row !important;
+  align-items: center !important;
+  justify-content: flex-end !important;
+  gap: 15px !important;
+  margin: 0 !important;
+}
+
+/* 4. Push main content down to clear the top bar */
+.page {
+  padding-top: 40px !important; /* Reduced from 110px to close the gap */
+}
+/* 5. Make the search bar longer */
+header .search-button {
+  width: 250px !important; /* Increase or decrease this pixel value to your liking */
+  justify-content: flex-start !important; /* Keeps the magnifying glass and text aligned nicely to the left */
+}
+/* ==========================================
+   SITE LOGO (CSS INJECTION)
+   ========================================== */
+/* 1. Flex the title link so the image and text sit side-by-side */
+header .page-title a {
+  display: flex !important;
+  flex-direction: row !important;
+  align-items: center !important;
+  gap: 15px !important; /* Space between the horse and the text */
+}
+
+/* 2. Inject the image directly before the title text */
+header .page-title a::before {
+  content: "" !important;
+  display: block !important;
+  width: 45px !important; /* Width of the logo */
+  height: 45px !important; /* Height of the logo */
+  border-radius: 50% !important; /* Crops it into a perfect circle */
+  
+  /* Points to your static image folder */
+background-image: url('https://i.postimg.cc/sfPNQvdN/Gold-vampires-Photoroom-ezgif-com-resize.png') !important;
+  background-size: cover !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  
+  border: 1px solid rgba(184, 150, 74, 0.40) !important; /* Adds a subtle gold ring */
+}
