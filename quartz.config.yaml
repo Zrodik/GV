@@ -16,30 +16,31 @@ configuration:
     fontOrigin: googleFonts
     cdnCaching: true
     typography:
-      header: Noto Serif
-      body: Noto Sans
-      code: IBM Plex Mono
+# Mapped from --fgs-font-heading
+      header: Cinzel
+# Mapped from --fgs-font-text[cite: 7]
+      body: Inter
+# Mapped from --fgs-font-mono[cite: 7]
+      code: Jetbrains Mono
     colors:
       lightMode:
-        light: "#f9e497"
-        lightgray: "#e8cb76"
-        gray: "#bda05d"
-        darkgray: "#332317"
-        dark: "#170f0a"
-        secondary: "#a32c0d"
-        tertiary: "#cf5517"
-        highlight: rgba(163, 44, 13, 0.12)
-        textHighlight: "#ffbe4d"
+        light: "#e8dfcd"       # --fgs-bg[cite: 7]
+        lightgray: "#f6f1e7"   # --fgs-surface[cite: 7]
+        gray: "#5a4a33"        # --fgs-text-muted[cite: 7]
+        darkgray: "#241d13"    # --fgs-text[cite: 7]
+        dark: "#5b3908"        # --fgs-heading-1[cite: 7]
+        secondary: "#7d5512"   # --fgs-accent[cite: 7]
+        tertiary: "#8d6215"    # --fgs-accent-bright[cite: 7]
+        highlight: "rgba(139, 100, 27, 0.15)" # Based on hover tints[cite: 7]
       darkMode:
-        light: "#120c0a"
-        lightgray: "#261a15"
-        gray: "#543c2f"
-        darkgray: "#eddac2"
-        dark: "#f9e497"
-        secondary: "#f57b28"
-        tertiary: "#ffad42"
-        highlight: rgba(245, 123, 40, 0.15)
-        textHighlight: "#6b2207"
+        light: "#12110f"       # --fgs-bg[cite: 7]
+        lightgray: "#191714"   # --fgs-surface[cite: 7]
+        gray: "#a29784"        # --fgs-text-muted[cite: 7]
+        darkgray: "#c8c0ae"    # --fgs-text[cite: 7]
+        dark: "#cdb783"        # --fgs-heading-1[cite: 7]
+        secondary: "#b8964a"   # --fgs-accent[cite: 7]
+        tertiary: "#ead79a"    # --fgs-accent-bright[cite: 7]
+        highlight: "rgba(184, 150, 74, 0.15)" # Based on hover tints[cite: 7]
 plugins:
   - source: "@quartz-community/created-modified-date"
     enabled: true
