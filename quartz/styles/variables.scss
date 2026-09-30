@@ -9,15 +9,16 @@
  */
 $breakpoints: (
   mobile: 800px,
-  desktop: 1440px,
+  desktop: 1250px, // Lowered so standard laptops trigger desktop view safely
 );
 
 $mobile: "(max-width: #{map.get($breakpoints, mobile)})";
 $tablet: "(min-width: #{map.get($breakpoints, mobile)}) and (max-width: #{map.get($breakpoints, desktop)})";
 $desktop: "(min-width: #{map.get($breakpoints, desktop)})";
 
-$pageWidth: 1200px; /* Expand this to 1100px, 1200px, or higher depending on your monitor size */
-$sidePanelWidth: 300px;
+/* Make the center page width fluid using clamp() */
+$pageWidth: clamp(1100px, 80%, 1200px);
+$sidePanelWidth: 260px; // slightly leaner sidebars to give the center max room
 $topSpacing: 6rem;
 $boldWeight: 700;
 $semiBoldWeight: 600;
